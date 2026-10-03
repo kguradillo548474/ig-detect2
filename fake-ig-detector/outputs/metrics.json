@@ -1,0 +1,56 @@
+{
+  "accuracy": 0.9898682877406282,
+  "precision": 0.9958847736625515,
+  "recall": 0.983739837398374,
+  "f1": 0.9897750511247444,
+  "roc_auc": 0.9995483288166215,
+  "pr_auc": 0.999556191820161,
+  "confusion_matrix": [
+    [
+      493,
+      2
+    ],
+    [
+      8,
+      484
+    ]
+  ],
+  "n_total": 4934,
+  "n_train": 3947,
+  "n_test": 987,
+  "params": {
+    "n_estimators": 500,
+    "max_depth": 5,
+    "learning_rate": 0.1,
+    "subsample": 1.0,
+    "colsample_bytree": 0.8
+  },
+  "features": [
+    "profile pic",
+    "nums/length username",
+    "fullname words",
+    "nums/length fullname",
+    "name==username",
+    "description length",
+    "external URL",
+    "private",
+    "#posts",
+    "#followers",
+    "#follows",
+    "followers_following_ratio"
+  ],
+  "importance": {
+    "profile pic": 0.7839767932891846,
+    "nums/length username": 0.05091633275151253,
+    "fullname words": 0.010614307597279549,
+    "nums/length fullname": 0.044289540499448776,
+    "name==username": 0.0,
+    "description length": 0.010496028698980808,
+    "external URL": 0.006570035126060247,
+    "private": 0.008360099047422409,
+    "#posts": 0.03471621870994568,
+    "#followers": 0.021805809810757637,
+    "#follows": 0.006677686236798763,
+    "followers_following_ratio": 0.021577121689915657
+  }
+}
